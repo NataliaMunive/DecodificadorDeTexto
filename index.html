@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/png" href="logo.ico">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">Ingrese el texto a encriptar aquí</div>
+        <textarea class="area-texto" id="textoEntrada" placeholder="Solo letras minúsculas y sin acentos"></textarea>
+        <div class="botones">
+            <button class="boton encriptar" onclick="encriptarTexto()">Encriptar</button>
+            <button class="boton desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+        </div>
+        <textarea class="area-texto" id="textoSalida" readonly placeholder="Resultado"></textarea>
+        <button class="boton copiar" onclick="copiarTexto()">Copiar</button>
+        <div class="footer">
+            <p>Hecho por Nat 
+        </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
